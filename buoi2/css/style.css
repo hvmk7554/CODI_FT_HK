@@ -1,0 +1,150 @@
+a{text-decoration: none;}
+
+.container
+ {width: 100%}
+
+.menu 
+ {width: 100%;
+  background-color: blueviolet;
+  color: bisque;}
+
+.menu a
+{color: chocolate;}
+
+.menu a:hover
+{color: forestgreen;}
+
+.submenuProduct a
+{color: lavender;}
+
+.submenuProduct a:hover
+{color: gold;}
+
+.menu_ul
+{ display: flex;
+  list-style: none;
+   line-height: 40px;
+   width: 80%;
+}
+
+.menu_ul > li
+{margin-right: 30px;}
+
+.menu_ul:first-child
+{margin-left: 20px;}
+
+.searchBox
+{width: 20%;
+ padding-top: 4px;}
+
+.searchBox>.searchIpt
+{padding: 4px 5px;
+  height: 30px;
+  width: 70%;}
+
+.searchBox>.searchBtn
+{width: 26%;
+height: 30px;}
+
+.main
+ {width: 100%;
+  background-color: azure;
+  display: flex;
+  min-height: 300px;}
+
+
+.sidebar
+  {width: 30%;
+    background-color: rgb(205, 255, 243);}
+
+.sidebar>ul
+{width: 97%;}
+
+
+.sidebar>ul>li
+{height: 40px;
+margin-bottom: 10px;
+background-color: aquamarine; 
+border-radius: 0px 0px 7px 7px;
+color: antiquewhite;
+text-align: center;
+padding-top: 10px;
+}
+
+.sidebar>ul>li>a
+{color: blue;
+}
+
+.maincontainer
+  {width: 70%;
+    background-color: rgba(205, 255, 222, 0.5);
+  }
+
+.productitem
+{margin-right: 1%;
+box-shadow: 7px 3px 1px 1px;
+padding-bottom: 12px;
+border-radius: 12px;}
+
+  
+
+.productitem>.row:first-child
+{width: 100%;
+}
+
+.productitem>.row:first-child>img
+{width: 99%;
+margin: 0px auto;
+}
+
+.productitem>.row:nth-child(2)
+{margin-top: 14px;
+  width: 100% ;
+padding-left: 10%;
+}
+
+.productitem>.row:nth-child(2) h5
+{font-family: 'Times New Roman', Times, serif ;
+font-size: 18px;
+}
+
+.productitem>.row:last-child
+{margin-top: 12px;
+padding-left: 10%;
+}
+
+.productitem>.row:last-child button
+{padding: 10px 35px;
+border: 1px solid rgb(100,206,251);
+border-radius: 7px;
+cursor: pointer;
+background: none;
+}
+
+.productitem>.row:last-child button:hover
+{background:rgb(100,206,251) ;
+}
+
+.footer
+     {background-color: rgb(255, 240, 247);
+    color: indigo;
+     min-height: 300px;
+    }
+
+.footer>.row
+{width: 100%;
+display: flex;
+}
+
+.footer>.row>.col:first-child
+{width: 70%;}
+
+
+.footer>.row>.col:last-child
+{width: 29%;
+margin-left: 1%;
+}
+
+.footer>.row>.col:last-child>iframe
+{width: 100%;
+}
