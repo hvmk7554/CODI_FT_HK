@@ -1,0 +1,30 @@
+
+.container
+ {width: 100%}
+
+.menu 
+ {width: 100%;
+  background-color: blueviolet;
+  color: bisque;}
+
+.main
+ {width: 100%;
+  background-color: azure;
+  display: flex;
+  min-height: 300px;}
+
+.sidebar
+  {width: 30%;
+    background-color: rgb(205, 255, 243);}
+.maincontainer
+  {width: 70%;
+    background-color: rgba(205, 255, 222, 0.5);}
+.footer
+     {background-color: rgb(255, 240, 247);
+    color: indigo;
+     min-height: 300px;}
+   
+
+
+  
+  
