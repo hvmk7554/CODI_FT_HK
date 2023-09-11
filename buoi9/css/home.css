@@ -1,0 +1,37 @@
+*.navbar1{
+    background-color: blue  !important;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+.nav-item{
+    height: 55px !important;
+}
+
+.nav-link{
+    padding-top: 25%;
+}
+
+.dropdown-toggle{
+    padding-top: 12%;
+}
+
+.dropdown:last-child{
+    margin-top: -0px;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+    position: absolute;
+    margin-top: 6%  !important;
+}
+
+.productinfo .card-title{
+    font-size: 18px;
+}
+
+.productinfo .card-text{
+    font-size: 17px;
+}
