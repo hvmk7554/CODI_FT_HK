@@ -1,0 +1,17 @@
+.container { 
+    display: flex; 
+    justify-content: center;
+}
+.navbar {
+width: 1200px; 
+display: flex;
+justify-content: space-between;
+gap: 20px; 
+height: 70px;
+background-color:grey; 
+align-items: center; 
+padding: 0px 20px;
+}
+a{
+text-decoration: none; 
+color: black;}
