@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Marathon Guest",
+      "lastname": "s",
+      "email": "marathonguest@gmmail.com",
+      "password": "123",
+      "isAdmin": true,
+      "avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYQtp0F69k8SDMtLJLwSfQW_l9st3lfj5HpaXzbh5bfak61mZ1mpTo2ei5kpVS-6JsuQ&usqp=CAU"
+    },
+    
+    {
+      "id": 7769,
+      "firstname": "sa",
+      "email": "sate@gmail.com",
+      "lastname": "te",
+      "password": "123456",
+      "isAdmin": false,
+      "avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7s7ia1JjcA8wq0ib4ijNKz0ys0JSvsiY4P1s110KaYG6f6nbC5LVHI-eStJIkboSvhKI&usqp=CAU"
+    }
+  ]
+}
