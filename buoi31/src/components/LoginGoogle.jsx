@@ -1,0 +1,35 @@
+import { GoogleLogin } from "@react-oauth/google"; 
+import jwtDecode from "jwt-decode";
+
+function LoginGoogle() {
+    const handleSuccess = (res) => {
+    const googleUser = jwtDecode(res.credential)
+    const newData ={
+        id: googleUser.iat,
+            avatar: googleUser.picture, 
+            firstname: googleUser.given_name,
+           lastname: googleUser.family_name, 
+           email: googleUser.email,
+           password: googleUser.jti, 
+           isAdmin: false
+    }
+
+    localStorage.setItem("token", res.credential) 
+    localStorage.setItem("userInfor", JSON.stringify(newData))
+}
+
+    const handleError = () => {
+        console.log("Login Failed");
+    }
+
+    return (
+        <GoogleLogin
+            onSuccess={handleSuccess}
+            onError = {handleError}
+            size = "large"
+    width = "200px"
+    />
+    );
+}
+
+    export default LoginGoogle;
